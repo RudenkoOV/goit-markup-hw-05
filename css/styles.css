@@ -399,7 +399,7 @@ h1, h2, h3, h4, p, ul {
     fill: currentColor;
 }
 
-.client-svg:hover {
+.client-svg:hover, .client-svg:focus {
     border-color:var(--button-background);
     color: var(--button-background);
 }
